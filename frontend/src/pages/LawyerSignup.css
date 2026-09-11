@@ -1,0 +1,162 @@
+.lawyer-signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background: #f7f8fc;
+}
+
+.lawyer-signup-card {
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  padding: 40px;
+  border: 1px solid #e3e6ed;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.lawyer-signup-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef0ff;
+  border-radius: 16px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.lawyer-signup-label {
+  color: #5965d8;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.lawyer-signup-card h1 {
+  color: #172033;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.lawyer-signup-description {
+  color: #687184;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.signup-error {
+  background: #fff1f0;
+  border: 1px solid #f5c6c3;
+  color: #c0392b;
+  padding: 12px;
+  border-radius: 9px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.signup-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.signup-form-group label {
+  color: #172033;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signup-form-group input,
+.signup-form-group select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #dfe2e9;
+  border-radius: 9px;
+  outline: none;
+  background: white;
+  color: #172033;
+  font-size: 14px;
+}
+
+.signup-form-group input:focus,
+.signup-form-group select:focus {
+  border-color: #5965d8;
+  box-shadow: 0 0 0 3px rgba(89, 101, 216, 0.1);
+}
+
+.lawyer-signup-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 9px;
+  background: #172033;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.lawyer-signup-button:hover {
+  background: #5965d8;
+}
+
+.lawyer-signup-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.signup-login {
+  text-align: center;
+  margin-top: 25px;
+  color: #687184;
+  font-size: 14px;
+}
+
+.signup-login a {
+  margin-left: 5px;
+  color: #5965d8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-login a:hover {
+  text-decoration: underline;
+}
+
+.signup-back {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.signup-back a {
+  color: #687184;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.signup-back a:hover {
+  color: #5965d8;
+}
+
+@media (max-width: 600px) {
+  .lawyer-signup-page {
+    padding: 30px 15px;
+  }
+
+  .lawyer-signup-card {
+    padding: 28px 22px;
+  }
+
+  .lawyer-signup-card h1 {
+    font-size: 26px;
+  }
+}

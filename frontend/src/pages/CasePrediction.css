@@ -1,0 +1,509 @@
+/* =========================================
+   CASE PREDICTION PAGE
+========================================= */
+
+.prediction-page {
+  min-height: 100vh;
+  padding: 60px 30px;
+  background: #f6f8fb;
+  color: #24324a;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.prediction-header {
+  max-width: 900px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.prediction-header p {
+  margin: 0 0 12px;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  color: #64748b;
+}
+
+.prediction-header h1 {
+  margin: 0 0 15px;
+
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+
+  color: #1e293b;
+}
+
+.prediction-header span {
+  display: block;
+
+  max-width: 680px;
+  margin: 0 auto;
+
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: #64748b;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.prediction-container {
+  width: 100%;
+  max-width: 1050px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 30px;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.prediction-form {
+  padding: 32px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   FORM GROUP
+========================================= */
+
+.form-group {
+  position: relative;
+
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #334155;
+}
+
+
+/* =========================================
+   TEXT / NUMBER INPUTS
+========================================= */
+
+.form-group input {
+  width: 100%;
+  height: 52px;
+
+  padding: 0 16px;
+
+  box-sizing: border-box;
+
+  font-size: 15px;
+  font-family: inherit;
+
+  color: #24324a;
+
+  background: #ffffff;
+
+  border: 1px solid #d8dee9;
+  border-radius: 10px;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.form-group input::placeholder {
+  color: #9aa4b2;
+}
+
+.form-group input:hover {
+  border-color: #aeb8c8;
+
+  background: #fafbfc;
+}
+
+.form-group input:focus {
+  border-color: #536d9d;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(83, 109, 157, 0.12);
+}
+
+
+/* =========================================
+   PROFESSIONAL DROPDOWNS
+========================================= */
+
+.form-group select {
+  width: 100%;
+  height: 52px;
+
+  padding: 0 48px 0 16px;
+
+  box-sizing: border-box;
+
+  font-size: 15px;
+  font-family: inherit;
+
+  color: #24324a;
+
+  background-color: #ffffff;
+
+  border: 1px solid #d8dee9;
+  border-radius: 10px;
+
+  outline: none;
+
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+
+/* Custom dropdown arrow */
+
+.form-group select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #64748b 50%),
+    linear-gradient(135deg, #64748b 50%, transparent 50%);
+
+  background-position:
+    calc(100% - 20px) 22px,
+    calc(100% - 15px) 22px;
+
+  background-size:
+    5px 5px,
+    5px 5px;
+
+  background-repeat: no-repeat;
+}
+
+
+/* Dropdown hover */
+
+.form-group select:hover {
+  border-color: #aeb8c8;
+
+  background-color: #fafbfc;
+}
+
+
+/* Dropdown focus */
+
+.form-group select:focus {
+  border-color: #536d9d;
+
+  background-color: #ffffff;
+
+  box-shadow:
+    0 0 0 3px rgba(83, 109, 157, 0.12);
+}
+
+
+/* Placeholder */
+
+.form-group select:invalid {
+  color: #8b95a5;
+}
+
+
+/* Selected value */
+
+.form-group select:valid {
+  color: #24324a;
+}
+
+
+/* Dropdown options */
+
+.form-group select option {
+  color: #24324a;
+
+  background: #ffffff;
+
+  font-size: 15px;
+}
+
+
+/* =========================================
+   YEAR + DURATION ROW
+========================================= */
+
+.form-row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+}
+
+
+/* =========================================
+   PREDICT BUTTON
+========================================= */
+
+.predict-button {
+  width: 100%;
+  height: 54px;
+
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #243b63;
+
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.predict-button:hover:not(:disabled) {
+  background: #1d3153;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 6px 16px rgba(36, 59, 99, 0.18);
+}
+
+.predict-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.predict-button:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================================
+   RESULT CARD
+========================================= */
+
+.prediction-result {
+  min-height: 100%;
+
+  padding: 40px 32px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+
+  box-shadow:
+    0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =========================================
+   RESULT ICON
+========================================= */
+
+.result-icon {
+  width: 62px;
+  height: 62px;
+
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eef2f7;
+
+  font-size: 27px;
+
+  color: #334155;
+}
+
+
+/* =========================================
+   RESULT HEADING
+========================================= */
+
+.prediction-result h2 {
+  margin: 0 0 12px;
+
+  font-size: 24px;
+  font-weight: 650;
+
+  color: #1e293b;
+}
+
+.prediction-result p {
+  max-width: 430px;
+
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #718096;
+}
+
+
+/* =========================================
+   PREDICTED OUTCOME
+========================================= */
+
+.result-label {
+  margin-bottom: 8px !important;
+
+  font-size: 11px !important;
+  font-weight: 700;
+
+  letter-spacing: 1.8px;
+
+  color: #64748b !important;
+}
+
+.prediction-value {
+  margin: 5px 0 15px !important;
+
+  font-size: 34px !important;
+  font-weight: 700 !important;
+
+  color: #243b63 !important;
+}
+
+
+/* =========================================
+   ERROR
+========================================= */
+
+.error-message {
+  color: #b42318 !important;
+
+  max-width: 420px;
+}
+
+
+/* =========================================
+   DISCLAIMER
+========================================= */
+
+.disclaimer {
+  max-width: 850px;
+
+  margin: 30px auto 0;
+
+  text-align: center;
+
+  font-size: 12px;
+  line-height: 1.6;
+
+  color: #8a94a6;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 850px) {
+
+  .prediction-container {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-header h1 {
+    font-size: 36px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .prediction-page {
+    padding: 40px 18px;
+  }
+
+  .prediction-header {
+    margin-bottom: 30px;
+  }
+
+  .prediction-header h1 {
+    font-size: 30px;
+  }
+
+  .prediction-header span {
+    font-size: 14px;
+  }
+
+  .prediction-form {
+    padding: 24px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+  .prediction-result {
+    padding: 35px 24px;
+  }
+
+}

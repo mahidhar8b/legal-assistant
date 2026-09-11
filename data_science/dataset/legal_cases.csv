@@ -1,0 +1,16 @@
+case_id,case_type,legal_category,court,year,case_duration_months,previous_status,outcome
+1,Civil,Property,District Court,2021,18,Pending,Pending
+2,Criminal,Criminal Law,High Court,2021,10,Pending,Convicted
+3,Civil,Family,District Court,2022,24,Pending,Settled
+4,Criminal,Criminal Law,High Court,2022,14,Pending,Acquitted
+5,Civil,Property,District Court,2023,30,Pending,Settled
+6,Civil,Family,Family Court,2023,12,Pending,Settled
+7,Criminal,Cyber Crime,High Court,2023,8,Pending,Acquitted
+8,Civil,Property,High Court,2024,20,Pending,Settled
+9,Criminal,Criminal Law,District Court,2024,16,Pending,Convicted
+10,Civil,Family,Family Court,2024,9,Pending,Settled
+11,Criminal,Cyber Crime,High Court,2024,7,Pending,Acquitted
+12,Civil,Property,District Court,2025,28,Pending,Pending
+13,Criminal,Criminal Law,High Court,2025,11,Pending,Convicted
+14,Civil,Family,Family Court,2025,15,Pending,Settled
+15,Civil,Property,High Court,2025,22,Pending,Settled

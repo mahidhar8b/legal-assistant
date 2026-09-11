@@ -1,0 +1,301 @@
+case_id,case_type,legal_category,court,year,case_duration_months,previous_status,outcome
+1,Civil,Cyber Crime,District Court,2020,31,Pending,Acquitted
+2,Criminal,Property,High Court,2020,45,Pending,Acquitted
+3,Civil,Property,Family Court,2025,24,Under Review,Pending
+4,Civil,Criminal Law,Family Court,2021,28,Under Review,Acquitted
+5,Civil,Cyber Crime,High Court,2025,30,Under Review,Acquitted
+6,Criminal,Property,High Court,2023,23,Hearing,Convicted
+7,Civil,Family,Family Court,2020,9,Hearing,Settled
+8,Civil,Family,Family Court,2020,19,Under Review,Pending
+9,Civil,Property,High Court,2024,22,Under Review,Pending
+10,Criminal,Family,Family Court,2023,43,Under Review,Acquitted
+11,Civil,Criminal Law,District Court,2020,22,Hearing,Convicted
+12,Civil,Family,District Court,2023,24,Hearing,Convicted
+13,Civil,Family,High Court,2021,30,Pending,Settled
+14,Civil,Criminal Law,High Court,2022,42,Pending,Acquitted
+15,Criminal,Property,High Court,2020,9,Under Review,Pending
+16,Civil,Family,District Court,2024,3,Hearing,Acquitted
+17,Criminal,Criminal Law,Family Court,2021,34,Hearing,Settled
+18,Criminal,Property,District Court,2023,15,Hearing,Settled
+19,Criminal,Property,Family Court,2025,32,Under Review,Convicted
+20,Civil,Criminal Law,District Court,2021,25,Pending,Settled
+21,Criminal,Family,Family Court,2020,21,Under Review,Pending
+22,Civil,Property,District Court,2023,34,Pending,Settled
+23,Criminal,Criminal Law,High Court,2022,32,Pending,Convicted
+24,Criminal,Property,District Court,2021,31,Under Review,Settled
+25,Criminal,Family,Family Court,2020,47,Pending,Settled
+26,Criminal,Property,District Court,2024,31,Pending,Settled
+27,Criminal,Family,District Court,2025,32,Hearing,Settled
+28,Criminal,Criminal Law,District Court,2023,18,Pending,Acquitted
+29,Criminal,Cyber Crime,High Court,2021,42,Under Review,Settled
+30,Criminal,Property,District Court,2021,21,Under Review,Pending
+31,Civil,Criminal Law,High Court,2022,20,Pending,Pending
+32,Civil,Property,High Court,2022,3,Hearing,Pending
+33,Criminal,Cyber Crime,District Court,2024,16,Hearing,Settled
+34,Criminal,Cyber Crime,District Court,2025,4,Pending,Convicted
+35,Criminal,Property,District Court,2024,30,Pending,Settled
+36,Civil,Family,Family Court,2020,32,Under Review,Settled
+37,Criminal,Family,District Court,2020,40,Pending,Pending
+38,Civil,Criminal Law,High Court,2024,6,Hearing,Settled
+39,Civil,Criminal Law,District Court,2025,3,Pending,Convicted
+40,Civil,Property,Family Court,2024,10,Under Review,Pending
+41,Civil,Property,District Court,2025,31,Under Review,Acquitted
+42,Civil,Cyber Crime,Family Court,2025,41,Under Review,Convicted
+43,Criminal,Cyber Crime,Family Court,2023,5,Under Review,Settled
+44,Criminal,Family,District Court,2025,34,Under Review,Settled
+45,Criminal,Criminal Law,High Court,2022,12,Pending,Convicted
+46,Criminal,Criminal Law,Family Court,2025,12,Pending,Settled
+47,Criminal,Family,District Court,2025,21,Pending,Settled
+48,Civil,Cyber Crime,District Court,2025,48,Pending,Settled
+49,Criminal,Cyber Crime,High Court,2020,36,Under Review,Settled
+50,Criminal,Family,Family Court,2022,35,Hearing,Settled
+51,Civil,Family,Family Court,2022,25,Pending,Settled
+52,Criminal,Property,District Court,2024,30,Hearing,Pending
+53,Civil,Property,District Court,2023,34,Pending,Acquitted
+54,Criminal,Cyber Crime,High Court,2025,9,Pending,Acquitted
+55,Civil,Family,High Court,2021,31,Hearing,Settled
+56,Criminal,Property,Family Court,2023,10,Under Review,Convicted
+57,Criminal,Property,Family Court,2023,3,Pending,Settled
+58,Civil,Family,District Court,2022,5,Pending,Acquitted
+59,Civil,Property,Family Court,2023,26,Pending,Acquitted
+60,Civil,Property,High Court,2025,25,Hearing,Settled
+61,Civil,Criminal Law,High Court,2025,10,Under Review,Pending
+62,Civil,Family,District Court,2020,39,Hearing,Settled
+63,Civil,Family,High Court,2025,5,Hearing,Pending
+64,Civil,Property,High Court,2025,35,Under Review,Acquitted
+65,Civil,Family,High Court,2022,30,Hearing,Pending
+66,Criminal,Property,High Court,2025,10,Under Review,Pending
+67,Criminal,Criminal Law,District Court,2020,36,Pending,Acquitted
+68,Civil,Family,District Court,2021,37,Under Review,Settled
+69,Criminal,Family,Family Court,2022,34,Pending,Acquitted
+70,Criminal,Family,High Court,2021,26,Hearing,Settled
+71,Criminal,Family,Family Court,2022,16,Hearing,Pending
+72,Criminal,Criminal Law,District Court,2024,34,Pending,Convicted
+73,Civil,Property,District Court,2023,48,Hearing,Acquitted
+74,Criminal,Criminal Law,District Court,2024,45,Under Review,Settled
+75,Civil,Property,District Court,2025,18,Pending,Acquitted
+76,Criminal,Property,District Court,2021,6,Hearing,Pending
+77,Criminal,Cyber Crime,District Court,2025,39,Pending,Acquitted
+78,Criminal,Criminal Law,District Court,2023,23,Under Review,Settled
+79,Civil,Cyber Crime,High Court,2022,16,Under Review,Settled
+80,Criminal,Family,Family Court,2023,33,Hearing,Settled
+81,Civil,Family,District Court,2020,20,Under Review,Convicted
+82,Criminal,Criminal Law,High Court,2023,9,Pending,Pending
+83,Civil,Criminal Law,High Court,2020,12,Under Review,Convicted
+84,Criminal,Criminal Law,Family Court,2023,9,Pending,Pending
+85,Civil,Property,District Court,2020,35,Pending,Settled
+86,Civil,Family,Family Court,2021,25,Under Review,Convicted
+87,Criminal,Property,District Court,2025,23,Hearing,Pending
+88,Civil,Property,High Court,2025,21,Under Review,Pending
+89,Criminal,Family,High Court,2024,21,Pending,Convicted
+90,Criminal,Property,High Court,2025,38,Pending,Convicted
+91,Criminal,Cyber Crime,High Court,2022,31,Under Review,Acquitted
+92,Criminal,Cyber Crime,Family Court,2023,20,Hearing,Settled
+93,Criminal,Cyber Crime,District Court,2024,4,Hearing,Pending
+94,Criminal,Criminal Law,District Court,2022,3,Pending,Pending
+95,Criminal,Property,Family Court,2022,7,Pending,Acquitted
+96,Criminal,Cyber Crime,District Court,2020,22,Hearing,Settled
+97,Criminal,Criminal Law,High Court,2025,13,Under Review,Acquitted
+98,Criminal,Cyber Crime,District Court,2021,44,Pending,Settled
+99,Criminal,Cyber Crime,High Court,2021,4,Pending,Settled
+100,Civil,Cyber Crime,Family Court,2024,5,Hearing,Settled
+101,Civil,Property,District Court,2021,25,Under Review,Pending
+102,Criminal,Criminal Law,Family Court,2023,14,Hearing,Pending
+103,Criminal,Cyber Crime,District Court,2021,22,Under Review,Acquitted
+104,Criminal,Criminal Law,High Court,2024,7,Under Review,Acquitted
+105,Criminal,Property,Family Court,2021,39,Under Review,Settled
+106,Criminal,Criminal Law,District Court,2023,40,Pending,Settled
+107,Criminal,Cyber Crime,High Court,2020,32,Hearing,Settled
+108,Criminal,Family,Family Court,2024,11,Hearing,Pending
+109,Criminal,Criminal Law,Family Court,2020,36,Under Review,Settled
+110,Civil,Property,District Court,2020,46,Pending,Pending
+111,Criminal,Family,District Court,2020,37,Pending,Convicted
+112,Civil,Cyber Crime,District Court,2022,24,Hearing,Convicted
+113,Criminal,Property,High Court,2025,46,Pending,Acquitted
+114,Criminal,Criminal Law,District Court,2022,26,Pending,Convicted
+115,Civil,Cyber Crime,Family Court,2025,19,Under Review,Acquitted
+116,Criminal,Family,Family Court,2020,12,Pending,Pending
+117,Civil,Family,District Court,2024,32,Under Review,Settled
+118,Criminal,Family,District Court,2025,48,Hearing,Settled
+119,Criminal,Criminal Law,Family Court,2023,25,Pending,Convicted
+120,Civil,Property,High Court,2023,34,Hearing,Pending
+121,Criminal,Family,District Court,2021,19,Hearing,Acquitted
+122,Civil,Family,District Court,2025,19,Pending,Acquitted
+123,Criminal,Cyber Crime,Family Court,2024,16,Pending,Acquitted
+124,Civil,Cyber Crime,District Court,2022,11,Hearing,Acquitted
+125,Civil,Criminal Law,High Court,2020,42,Pending,Settled
+126,Criminal,Criminal Law,Family Court,2021,4,Under Review,Acquitted
+127,Criminal,Family,District Court,2023,47,Under Review,Pending
+128,Civil,Family,Family Court,2022,27,Pending,Settled
+129,Criminal,Family,District Court,2022,41,Hearing,Settled
+130,Criminal,Family,District Court,2020,11,Pending,Pending
+131,Criminal,Cyber Crime,District Court,2025,24,Pending,Settled
+132,Civil,Criminal Law,High Court,2023,45,Hearing,Pending
+133,Civil,Criminal Law,High Court,2024,48,Hearing,Settled
+134,Civil,Property,Family Court,2022,6,Under Review,Acquitted
+135,Civil,Criminal Law,District Court,2020,28,Hearing,Pending
+136,Civil,Property,District Court,2024,31,Under Review,Settled
+137,Civil,Criminal Law,High Court,2025,47,Hearing,Convicted
+138,Civil,Criminal Law,District Court,2023,36,Pending,Settled
+139,Civil,Property,High Court,2025,25,Under Review,Pending
+140,Civil,Criminal Law,District Court,2022,39,Under Review,Settled
+141,Criminal,Property,Family Court,2024,13,Under Review,Pending
+142,Civil,Property,District Court,2024,8,Pending,Pending
+143,Criminal,Family,District Court,2024,20,Pending,Settled
+144,Criminal,Criminal Law,High Court,2022,23,Pending,Acquitted
+145,Criminal,Property,District Court,2022,44,Pending,Settled
+146,Civil,Criminal Law,District Court,2025,38,Pending,Acquitted
+147,Civil,Family,High Court,2021,43,Under Review,Settled
+148,Civil,Property,Family Court,2025,40,Pending,Pending
+149,Civil,Family,Family Court,2023,36,Under Review,Settled
+150,Criminal,Property,High Court,2020,19,Pending,Settled
+151,Civil,Property,High Court,2024,39,Hearing,Settled
+152,Civil,Criminal Law,High Court,2021,27,Under Review,Convicted
+153,Civil,Criminal Law,High Court,2020,40,Hearing,Convicted
+154,Civil,Family,High Court,2021,14,Under Review,Acquitted
+155,Civil,Family,Family Court,2025,25,Hearing,Pending
+156,Criminal,Cyber Crime,Family Court,2022,44,Pending,Settled
+157,Civil,Criminal Law,High Court,2024,24,Pending,Settled
+158,Criminal,Criminal Law,District Court,2025,23,Pending,Acquitted
+159,Civil,Family,High Court,2020,29,Under Review,Pending
+160,Criminal,Property,District Court,2020,33,Hearing,Settled
+161,Civil,Criminal Law,High Court,2020,8,Pending,Settled
+162,Civil,Property,High Court,2020,29,Hearing,Settled
+163,Criminal,Property,Family Court,2020,42,Hearing,Acquitted
+164,Criminal,Cyber Crime,District Court,2021,36,Pending,Acquitted
+165,Criminal,Family,District Court,2025,14,Pending,Convicted
+166,Civil,Family,Family Court,2024,47,Hearing,Acquitted
+167,Criminal,Criminal Law,Family Court,2022,9,Pending,Acquitted
+168,Civil,Property,Family Court,2022,12,Pending,Convicted
+169,Civil,Property,Family Court,2025,47,Pending,Pending
+170,Criminal,Property,District Court,2025,19,Under Review,Acquitted
+171,Criminal,Criminal Law,District Court,2022,28,Hearing,Settled
+172,Civil,Family,High Court,2022,23,Hearing,Acquitted
+173,Civil,Family,High Court,2021,30,Under Review,Settled
+174,Criminal,Property,Family Court,2023,48,Hearing,Convicted
+175,Criminal,Cyber Crime,Family Court,2024,4,Pending,Pending
+176,Criminal,Family,Family Court,2020,45,Hearing,Settled
+177,Civil,Criminal Law,High Court,2023,3,Pending,Settled
+178,Civil,Family,High Court,2025,38,Under Review,Settled
+179,Civil,Criminal Law,High Court,2022,28,Pending,Pending
+180,Civil,Property,High Court,2023,31,Hearing,Settled
+181,Civil,Criminal Law,High Court,2024,23,Hearing,Convicted
+182,Civil,Family,High Court,2025,13,Hearing,Settled
+183,Criminal,Property,High Court,2020,42,Under Review,Settled
+184,Civil,Property,Family Court,2020,13,Under Review,Pending
+185,Civil,Property,Family Court,2024,38,Hearing,Pending
+186,Civil,Property,Family Court,2024,41,Pending,Settled
+187,Criminal,Cyber Crime,Family Court,2022,42,Under Review,Pending
+188,Civil,Family,High Court,2020,37,Hearing,Convicted
+189,Civil,Criminal Law,District Court,2025,36,Hearing,Pending
+190,Criminal,Property,High Court,2023,26,Under Review,Pending
+191,Civil,Criminal Law,District Court,2025,24,Under Review,Convicted
+192,Civil,Criminal Law,Family Court,2021,7,Under Review,Convicted
+193,Civil,Property,High Court,2021,35,Pending,Acquitted
+194,Civil,Criminal Law,Family Court,2024,38,Pending,Settled
+195,Civil,Criminal Law,High Court,2022,22,Hearing,Settled
+196,Criminal,Family,Family Court,2021,21,Under Review,Acquitted
+197,Criminal,Family,District Court,2020,37,Pending,Acquitted
+198,Criminal,Property,District Court,2025,45,Under Review,Settled
+199,Civil,Criminal Law,District Court,2025,19,Hearing,Acquitted
+200,Civil,Family,High Court,2024,47,Pending,Pending
+201,Civil,Criminal Law,District Court,2023,45,Pending,Settled
+202,Criminal,Cyber Crime,High Court,2024,36,Pending,Acquitted
+203,Civil,Family,District Court,2023,11,Hearing,Pending
+204,Civil,Property,District Court,2024,28,Under Review,Pending
+205,Criminal,Property,High Court,2024,4,Pending,Settled
+206,Civil,Family,High Court,2024,11,Hearing,Pending
+207,Criminal,Property,District Court,2023,11,Under Review,Pending
+208,Criminal,Criminal Law,High Court,2023,42,Hearing,Pending
+209,Criminal,Cyber Crime,District Court,2024,19,Under Review,Acquitted
+210,Civil,Criminal Law,High Court,2021,3,Hearing,Convicted
+211,Civil,Criminal Law,Family Court,2022,27,Under Review,Acquitted
+212,Civil,Family,Family Court,2022,45,Pending,Pending
+213,Civil,Criminal Law,Family Court,2022,42,Under Review,Convicted
+214,Civil,Criminal Law,Family Court,2023,44,Hearing,Settled
+215,Civil,Cyber Crime,Family Court,2023,27,Hearing,Pending
+216,Civil,Criminal Law,District Court,2021,41,Under Review,Acquitted
+217,Criminal,Cyber Crime,Family Court,2022,37,Pending,Acquitted
+218,Civil,Cyber Crime,Family Court,2022,5,Pending,Settled
+219,Criminal,Property,Family Court,2024,39,Under Review,Acquitted
+220,Civil,Property,Family Court,2023,46,Under Review,Settled
+221,Civil,Property,High Court,2022,46,Hearing,Acquitted
+222,Civil,Property,District Court,2025,32,Pending,Settled
+223,Criminal,Property,Family Court,2021,40,Under Review,Acquitted
+224,Criminal,Family,Family Court,2025,36,Pending,Pending
+225,Criminal,Property,Family Court,2025,14,Under Review,Settled
+226,Criminal,Criminal Law,District Court,2021,21,Under Review,Pending
+227,Civil,Family,High Court,2025,39,Pending,Settled
+228,Criminal,Property,District Court,2022,46,Under Review,Pending
+229,Civil,Family,High Court,2023,19,Under Review,Pending
+230,Civil,Property,Family Court,2021,12,Hearing,Pending
+231,Criminal,Property,Family Court,2024,14,Under Review,Pending
+232,Criminal,Family,District Court,2025,18,Under Review,Pending
+233,Criminal,Family,District Court,2021,26,Under Review,Pending
+234,Criminal,Cyber Crime,High Court,2020,21,Hearing,Convicted
+235,Criminal,Family,High Court,2020,10,Pending,Acquitted
+236,Criminal,Family,District Court,2023,33,Hearing,Acquitted
+237,Criminal,Property,High Court,2022,23,Hearing,Pending
+238,Criminal,Property,District Court,2023,19,Pending,Acquitted
+239,Civil,Family,High Court,2023,25,Hearing,Pending
+240,Criminal,Family,District Court,2023,39,Pending,Acquitted
+241,Criminal,Cyber Crime,District Court,2023,18,Hearing,Settled
+242,Civil,Criminal Law,District Court,2024,8,Pending,Convicted
+243,Criminal,Criminal Law,High Court,2024,10,Under Review,Settled
+244,Civil,Family,High Court,2021,27,Hearing,Acquitted
+245,Civil,Criminal Law,High Court,2020,20,Hearing,Convicted
+246,Criminal,Cyber Crime,District Court,2023,27,Hearing,Convicted
+247,Civil,Cyber Crime,High Court,2021,14,Hearing,Acquitted
+248,Civil,Criminal Law,High Court,2020,17,Under Review,Convicted
+249,Civil,Family,District Court,2025,28,Hearing,Pending
+250,Civil,Family,Family Court,2022,43,Under Review,Settled
+251,Criminal,Property,District Court,2024,47,Under Review,Settled
+252,Civil,Cyber Crime,High Court,2025,28,Under Review,Settled
+253,Criminal,Criminal Law,District Court,2020,34,Under Review,Settled
+254,Civil,Family,Family Court,2025,12,Pending,Acquitted
+255,Civil,Criminal Law,District Court,2022,18,Pending,Acquitted
+256,Civil,Cyber Crime,High Court,2020,9,Hearing,Acquitted
+257,Civil,Criminal Law,Family Court,2025,19,Pending,Convicted
+258,Criminal,Property,High Court,2024,25,Pending,Settled
+259,Criminal,Cyber Crime,Family Court,2024,28,Hearing,Acquitted
+260,Civil,Property,Family Court,2021,23,Hearing,Pending
+261,Civil,Criminal Law,District Court,2025,24,Hearing,Convicted
+262,Criminal,Cyber Crime,District Court,2023,9,Pending,Settled
+263,Civil,Cyber Crime,High Court,2025,16,Pending,Settled
+264,Civil,Criminal Law,District Court,2020,17,Hearing,Convicted
+265,Civil,Family,District Court,2020,9,Under Review,Pending
+266,Criminal,Criminal Law,Family Court,2025,11,Hearing,Convicted
+267,Criminal,Property,District Court,2022,10,Under Review,Pending
+268,Criminal,Criminal Law,Family Court,2024,25,Under Review,Acquitted
+269,Civil,Family,Family Court,2020,31,Hearing,Acquitted
+270,Civil,Family,Family Court,2024,20,Hearing,Pending
+271,Criminal,Family,High Court,2020,33,Hearing,Acquitted
+272,Criminal,Family,High Court,2021,32,Pending,Pending
+273,Criminal,Property,High Court,2023,41,Under Review,Settled
+274,Criminal,Criminal Law,Family Court,2020,37,Pending,Settled
+275,Civil,Property,High Court,2024,20,Pending,Settled
+276,Criminal,Criminal Law,High Court,2021,44,Hearing,Convicted
+277,Civil,Criminal Law,District Court,2020,41,Pending,Pending
+278,Criminal,Cyber Crime,High Court,2022,19,Hearing,Settled
+279,Civil,Criminal Law,High Court,2023,16,Under Review,Pending
+280,Criminal,Property,Family Court,2020,33,Hearing,Settled
+281,Criminal,Property,Family Court,2021,26,Pending,Pending
+282,Criminal,Family,Family Court,2022,37,Pending,Settled
+283,Criminal,Family,Family Court,2025,46,Hearing,Settled
+284,Civil,Property,Family Court,2021,47,Hearing,Settled
+285,Criminal,Property,Family Court,2021,36,Pending,Settled
+286,Civil,Family,High Court,2022,5,Under Review,Acquitted
+287,Civil,Property,Family Court,2021,39,Under Review,Settled
+288,Civil,Family,Family Court,2022,45,Hearing,Acquitted
+289,Civil,Family,District Court,2020,42,Under Review,Convicted
+290,Criminal,Property,High Court,2022,28,Pending,Settled
+291,Civil,Property,High Court,2022,25,Hearing,Pending
+292,Civil,Cyber Crime,High Court,2023,46,Pending,Acquitted
+293,Civil,Criminal Law,Family Court,2022,41,Pending,Settled
+294,Criminal,Criminal Law,Family Court,2022,17,Under Review,Convicted
+295,Criminal,Family,Family Court,2025,6,Hearing,Convicted
+296,Criminal,Cyber Crime,District Court,2020,31,Hearing,Settled
+297,Criminal,Cyber Crime,Family Court,2023,24,Under Review,Acquitted
+298,Civil,Family,District Court,2025,27,Pending,Settled
+299,Civil,Criminal Law,High Court,2024,15,Pending,Convicted
+300,Criminal,Property,Family Court,2020,20,Pending,Acquitted

@@ -1,0 +1,508 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 70px 7%;
+  background: #f7f8fc;
+}
+
+
+/* HEADER */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+
+.dashboard-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #5965d8;
+  margin-bottom: 12px;
+}
+
+.dashboard-header h1 {
+  font-size: 48px;
+  color: #172033;
+  margin-bottom: 12px;
+}
+
+.dashboard-header > div:first-child > span {
+  color: #687184;
+  font-size: 16px;
+}
+
+
+/* LAWYER PROFILE */
+
+.lawyer-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: white;
+  padding: 14px 18px;
+
+  border: 1px solid #e2e5ec;
+  border-radius: 12px;
+}
+
+.profile-avatar {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eef0ff;
+  border-radius: 50%;
+
+  font-size: 23px;
+}
+
+.lawyer-profile {
+  color: #172033;
+}
+
+.lawyer-profile small {
+  display: block;
+  color: #7a8292;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+
+/* STATS */
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  margin-bottom: 45px;
+}
+
+.stat-card {
+  background: white;
+
+  border: 1px solid #e3e6ed;
+  border-radius: 14px;
+
+  padding: 23px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #eef0ff;
+
+  font-size: 23px;
+}
+
+.stat-icon.pending {
+  background: #fff4d6;
+}
+
+.stat-icon.accepted {
+  background: #e1f7eb;
+}
+
+.stat-card strong {
+  display: block;
+
+  font-size: 27px;
+
+  color: #172033;
+}
+
+.stat-card span {
+  display: block;
+
+  color: #7a8292;
+
+  font-size: 13px;
+
+  margin-top: 4px;
+}
+
+
+/* REQUEST SECTION */
+
+.requests-section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.requests-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.requests-heading p {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+
+  color: #5965d8;
+
+  margin-bottom: 8px;
+}
+
+.requests-heading h2 {
+  font-size: 28px;
+  color: #172033;
+}
+
+
+/* REFRESH */
+
+.refresh-button {
+  border: 1px solid #d7dae2;
+
+  background: white;
+
+  color: #172033;
+
+  padding: 10px 17px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.refresh-button:hover {
+  background: #f1f3f7;
+}
+
+
+/* REQUEST LIST */
+
+.requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+/* REQUEST CARD */
+
+.request-card {
+  background: white;
+
+  border: 1px solid #e2e5ec;
+
+  border-radius: 15px;
+
+  padding: 25px;
+
+  transition: 0.25s;
+}
+
+.request-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+/* TOP */
+
+.request-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #e8eaf0;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.client-avatar {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f0f1f5;
+
+  border-radius: 50%;
+
+  font-size: 22px;
+}
+
+.client-info small {
+  color: #8a91a1;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+
+  font-weight: 700;
+}
+
+.client-info h3 {
+  color: #172033;
+
+  font-size: 18px;
+
+  margin-top: 4px;
+}
+
+
+/* STATUS */
+
+.request-status {
+  padding: 7px 13px;
+
+  border-radius: 20px;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
+}
+
+.request-status.pending {
+  background: #fff4d6;
+  color: #9a6b00;
+}
+
+.request-status.accepted {
+  background: #e1f7eb;
+  color: #167044;
+}
+
+.request-status.rejected {
+  background: #fde8e8;
+  color: #b42323;
+}
+
+
+/* MESSAGE */
+
+.client-message {
+  padding: 20px 0;
+}
+
+.client-message small {
+  color: #8a91a1;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+
+  font-weight: 700;
+}
+
+.client-message p {
+  margin-top: 8px;
+
+  color: #4f586a;
+
+  line-height: 1.6;
+
+  font-size: 15px;
+}
+
+
+/* FOOTER */
+
+.request-footer {
+  border-top: 1px solid #e8eaf0;
+
+  padding-top: 18px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+
+  color: #8a91a1;
+
+  font-size: 12px;
+}
+
+
+/* ACTIONS */
+
+.request-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.request-actions button {
+  padding: 9px 17px;
+
+  border-radius: 7px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.request-actions button:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+.reject-button {
+  background: white;
+
+  border: 1px solid #e1bcbc;
+
+  color: #b42323;
+}
+
+.reject-button:hover {
+  background: #fff5f5;
+}
+
+.accept-button {
+  background: #172033;
+
+  border: 1px solid #172033;
+
+  color: white;
+}
+
+.accept-button:hover {
+  background: #2a344a;
+}
+
+
+/* COMPLETED */
+
+.completed-text {
+  color: #167044;
+
+  font-weight: 600;
+}
+
+.rejected-text {
+  color: #b42323;
+
+  font-weight: 600;
+}
+
+
+/* MESSAGE */
+
+.dashboard-message {
+  max-width: 650px;
+
+  margin: 60px auto;
+
+  padding: 50px 30px;
+
+  text-align: center;
+
+  background: white;
+
+  border: 1px solid #e2e5ec;
+
+  border-radius: 17px;
+}
+
+.dashboard-message > div {
+  font-size: 45px;
+
+  margin-bottom: 15px;
+}
+
+.dashboard-message h2 {
+  color: #172033;
+
+  margin-bottom: 10px;
+}
+
+.dashboard-message p {
+  color: #687184;
+
+  line-height: 1.6;
+}
+
+.dashboard-message.error h2 {
+  color: #b42323;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .dashboard-page {
+    padding: 55px 5%;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dashboard-header h1 {
+    font-size: 38px;
+  }
+
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .request-top {
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .request-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .request-actions {
+    width: 100%;
+  }
+
+  .request-actions button {
+    flex: 1;
+  }
+
+}
